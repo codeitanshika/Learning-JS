@@ -33,4 +33,34 @@ const myfunc=function(){
     
 }
 
-console.log(typeof temp)// object
+console.log(typeof temp)//object
+
+//---------------memory------------------
+
+//stack--> primitive  ,copy of variable
+// heap--> non primitive, orignal value reference
+
+
+let realvalue= "hello"
+
+let anothervalue= realvalue //copy of variable is passed
+
+anothervalue= "hello world"
+
+console.log(realvalue)  // hello
+console.log(anothervalue)  //hello world
+
+// pass by reference, both point at same object
+let obj1={
+    mail:"abc@gmail.com",
+    num: 1234,
+}
+
+let obj2= obj1
+
+obj2.mail="cdf@gmail.com"
+
+console.log(obj1.mail); //cdf@gmail.com
+console.log(obj2.mail); //cdf@gmail.com
+
+
