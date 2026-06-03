@@ -1,8 +1,8 @@
 const accountId=122314 //cant be changed
 let accountEmail="abc@gmail.com"
-var passw="12345"
+var passw="12345" //scope problm
 accountCity="jaipur"
-let accountState;
+let accountState; //undefined
 
 passw="12121"
 console.table([accountId,accountEmail,passw,accountCity,accountState])

@@ -1,6 +1,8 @@
 let score= "33"
 console.log(typeof score); //string
 
+//const{score}=req.body no guarentee of dtype
+
 let valueInNumber=Number(score)
 console.log(valueInNumber);// number
 

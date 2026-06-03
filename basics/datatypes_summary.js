@@ -1,5 +1,5 @@
 /* 
-    primitive
+    primitive call by value-copy di jati h
     1. string
     2. number
     3. boolean
@@ -8,14 +8,14 @@
     6. symbol
     7. BigInt
 */
-const temp= null
+const temp= null //typesafety 
 let state; //undefined
-const id =Symbol('123')
+const id =Symbol('123')//unique
 const anotherId=Symbol('123')
 console.log(id===anotherId); //false
 
 /*
-    reference (non primitive)
+    reference type (non primitive)
     1. array
     2. objects
     3. functions
@@ -28,12 +28,13 @@ let myObj={
     age:22,
 }
 
-const myfunc=function(){
+const myfunc=function(){ //storing as variable
     console.log("hello")
     
 }
 
 console.log(typeof temp)//object
+console.log(typeof myfunc) //function-->object function
 
 //---------------memory------------------
 
