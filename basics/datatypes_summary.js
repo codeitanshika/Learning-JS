@@ -57,7 +57,7 @@ let obj1={
     num: 1234,
 }
 
-let obj2= obj1
+let obj2= obj1 //actual value is passed
 
 obj2.mail="cdf@gmail.com"
 
