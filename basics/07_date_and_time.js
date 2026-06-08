@@ -15,4 +15,4 @@ object */
 let mycreatedate=new Date(2023,0,23,12,30)//Mon Jan 23 2023 12:30:00 GMT+0530 (India Standard Time)
 let mytimestamp=Date.now()//value in millisec
 
-//
+//date and time
