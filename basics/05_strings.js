@@ -35,7 +35,7 @@ console.log(url.includes('abc'))
 console.log(game.split('-')) //seperator, limit
 
 
-
+//string basics
 
 
 

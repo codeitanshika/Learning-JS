@@ -23,3 +23,4 @@ console.log(undefined < 0);
 // ===  strict check ie checks datatype without conversion
 
 console.log("2" === 2); 
+//conversion basics

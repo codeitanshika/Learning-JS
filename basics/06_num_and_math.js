@@ -37,4 +37,4 @@ console.log(Math.floor(x*(max-min+1)))//1
 console.log(x*(max-min+1)+min)// 11.486664935412277 added min to get val btw the max and min
 console.log(Math.floor(x*(max-min+1)+min))//11
 
-
+//maths basics
