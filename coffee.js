@@ -1,0 +1,3 @@
+const itemsInCart = 0;
+const message = itemsInCart || "cart is empty";
+console.log(message);   // predict carefully...
