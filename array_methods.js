@@ -15,3 +15,21 @@ let squares=nums.map(num=>{
     return num*num;
 });
 console.log(squares)
+
+//convert objects
+let users=[
+{name:"Rahul"},
+{name:"Aman"},
+{name:"Neha"}
+];
+let names=users.map(user=>user.name)
+console.log(names);
+
+/**filter() Returns only elements satisfying a condition. */
+
+let results=nums.filter(n=>n%2!=0)
+console.log(results)
+
+// reduce()-Converts an array into one value.
+let sum=nums.reduce((total,current)=>{return total+current},0)
+console.log(sum)
