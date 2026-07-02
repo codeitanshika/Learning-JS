@@ -33,3 +33,10 @@ console.log(results)
 // reduce()-Converts an array into one value.
 let sum=nums.reduce((total,current)=>{return total+current},0)
 console.log(sum)
+let result=nums.find(num=>num>25);
+
+console.log(result);
+
+console.log(nums.findIndex(num=>num==30));
+
+console.log(nums.some(num=>num%2!=0));
