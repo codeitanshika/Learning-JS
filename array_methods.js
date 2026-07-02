@@ -40,3 +40,15 @@ console.log(result);
 console.log(nums.findIndex(num=>num==30));
 
 console.log(nums.some(num=>num%2!=0));
+
+let nums1=[2,4,6];
+
+console.log(nums1.every(num=>num%2==0));
+
+let fruits=["Apple","Banana","Mango"];
+
+console.log(fruits.includes("Banana"));
+
+let fruits=["Apple","Banana","Mango"];
+
+console.log(fruits.indexOf("Mango"));
