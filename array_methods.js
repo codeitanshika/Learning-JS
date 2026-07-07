@@ -62,3 +62,10 @@ console.log(nums);
 
 // correct
 nums.sort((a,b)=>a-b);
+
+// reverse
+let nums=[1,2,3];
+
+nums.reverse();
+
+console.log(nums);
