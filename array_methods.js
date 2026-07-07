@@ -52,3 +52,13 @@ console.log(fruits.includes("Banana"));
 let fruits=["Apple","Banana","Mango"];
 
 console.log(fruits.indexOf("Mango"));
+
+// sort
+let nums=[5,2,8,1];
+
+nums.sort();
+
+console.log(nums);
+
+// correct
+nums.sort((a,b)=>a-b);
