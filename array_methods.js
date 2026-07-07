@@ -69,3 +69,13 @@ let nums=[1,2,3];
 nums.reverse();
 
 console.log(nums);
+
+// flat and flatMap
+let arr=[1,[2,[3,4]]];
+
+console.log(arr.flat(2));
+let words=["Hi","JS"];
+
+let result=words.flatMap(word=>word.split(""));
+
+console.log(result);
