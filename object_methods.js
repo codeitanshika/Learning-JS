@@ -25,3 +25,18 @@ Object.entries(student).forEach(([key,value])=>{
 let copy=Object.assign({},student);
 
 console.log(copy);
+
+?/merge
+let personal={
+    name:"Anshika",
+    age:21
+};
+
+let education={
+    course:"B.Tech",
+    cgpa:8.6
+};
+
+let result=Object.assign({},personal,education);
+
+console.log(result);
