@@ -40,3 +40,17 @@ let education={
 let result=Object.assign({},personal,education);
 
 console.log(result);
+let student={
+    name:"Anshika",
+    age:21
+};
+
+Object.freeze(student);
+
+student.age=25;
+
+student.city="Delhi";
+
+delete student.name;
+
+console.log(student);
