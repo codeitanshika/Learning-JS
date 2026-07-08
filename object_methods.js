@@ -12,3 +12,5 @@ let keys = Object.keys(student);
 console.log(keys);
 
 console.log(Object.values(student));
+
+console.log(Object.entries(student));
