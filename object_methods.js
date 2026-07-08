@@ -14,3 +14,14 @@ console.log(keys);
 console.log(Object.values(student));
 
 console.log(Object.entries(student));
+
+Object.entries(student).forEach(([key,value])=>{
+
+    console.log(key,value);
+
+});
+
+//assign
+let copy=Object.assign({},student);
+
+console.log(copy);
