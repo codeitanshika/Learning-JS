@@ -26,7 +26,6 @@ let copy=Object.assign({},student);
 
 console.log(copy);
 
-?/merge
 let personal={
     name:"Anshika",
     age:21
