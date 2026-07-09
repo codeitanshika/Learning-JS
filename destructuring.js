@@ -36,3 +36,22 @@ let [first, ...rest] = nums;
 
 console.log(first);
 console.log(rest);
+
+// function destructuring
+function print({name,age}){
+
+    console.log(name);
+
+    console.log(age);
+
+}
+
+let student={
+
+    name:"Anshika",
+
+    age:21
+
+};
+
+print(student);
