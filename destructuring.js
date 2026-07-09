@@ -17,3 +17,14 @@ let [first, second] = colors;
 
 console.log(first);
 console.log(second);
+
+//object destructuring
+let student = {
+    name: "Anshika",
+    age: 21,
+    course: "B.Tech"
+};
+let { name, age } = student;
+
+console.log(name);
+console.log(age);
