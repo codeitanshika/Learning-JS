@@ -28,3 +28,11 @@ let { name, age } = student;
 
 console.log(name);
 console.log(age);
+
+//rest operator
+let nums = [10,20,30,40,50];
+
+let [first, ...rest] = nums;
+
+console.log(first);
+console.log(rest);
