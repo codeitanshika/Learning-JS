@@ -1,9 +1,13 @@
-console.log("Start");
+const person={
 
-function greet() {
-    console.log("Hello");
-}
+    name:"John",
 
-greet();
+    greet(){
 
-console.log("End");
+        console.log(this.name);
+
+    }
+
+};
+
+person.greet();
