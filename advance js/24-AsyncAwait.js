@@ -10,3 +10,16 @@ async function displayMessage() {
 }
 
 displayMessage();
+
+// Promise
+fetchData()
+    .then(data => console.log(data))
+    .catch(err => console.log(err));
+
+// Async/Await
+try {
+    const data = await fetchData();
+    console.log(data);
+} catch (err) {
+    console.log(err);
+}
