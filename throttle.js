@@ -14,3 +14,14 @@ function throttle(func, delay) {
         }
     };
 }
+
+// example
+function printMessage(message) {
+    console.log(Date.now(), message);
+}
+
+const throttledPrint = throttle(printMessage, 2000);
+
+setInterval(() => {
+    throttledPrint("Scrolling...");
+}, 500);
