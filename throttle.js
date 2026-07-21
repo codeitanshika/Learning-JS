@@ -25,3 +25,9 @@ const throttledPrint = throttle(printMessage, 2000);
 setInterval(() => {
     throttledPrint("Scrolling...");
 }, 500);
+// button click
+const throttledClick = throttle(() => {
+    console.log("Button Clicked");
+}, 3000);
+
+document.addEventListener("click", throttledClick);
